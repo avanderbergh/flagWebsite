@@ -1,3 +1,9 @@
+/* This is a program that draws some flags!
+
+Written by Adriaan
+With love 💋 */
+
+
 function setup() {
   let canvas = createCanvas(400, 300);
   canvas.parent("#p5");
@@ -22,6 +28,7 @@ function germany() {
 }
 
 function draw() {
+  // To make the flag change every 3 seconds
   if (frameCount % 2 == 0) {
     germany();
   } else { 
